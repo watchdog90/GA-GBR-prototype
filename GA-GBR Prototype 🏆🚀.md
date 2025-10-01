@@ -10,7 +10,9 @@ Access the deployed application: https://g8anpj4pcwkjacgbsg5fhd.streamlit.app/
 
 ## 📊 Optimal Model Configuration
 
-Based on extensive testing, the following hyperparameters provide the best performance:
+**Note on Reproducibility**: The GA search stage is an offline, compute-intensive procedure subject to institutional IP constraints. To ensure practical reproducibility, we release the frozen GA outputs (feature mask and hyperparameters) and the trained GBR pipeline. This allows anyone to train and evaluation the GA-GBR model, make predictions, and SHAP explanations with confidence interval reported in the paper without rerunning the GA.
+
+**Based on extensive testing, the following hyperparameters provide the best performance:**
 
 ### Model Hyperparameters
 
@@ -199,5 +201,6 @@ This project is licensed under the MIT License - see the [LICENSE](https://claud
 ------
 
 ⭐ **Star this repository if you find it helpful!**
+
 
 🔗 **Live Application**: https://g8anpj4pcwkjacgbsg5fhd.streamlit.app/
