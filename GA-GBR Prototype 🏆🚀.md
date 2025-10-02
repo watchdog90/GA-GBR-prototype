@@ -177,7 +177,7 @@ The model is trained on a comprehensive housing dataset with features including:
 
 | Issue                  | Solution                                               |
 | ---------------------- | ------------------------------------------------------ |
-| App loads slowly       | First launch takes time; subsequent loads are faster   |
+| App loads slowly       | First launch takes time to wake up (3-5 mins); subsequent loads are faster   |
 | Model not found        | Click "Train and Show Metrics" to create a new model   |
 | Prediction error       | Ensure all input fields are filled with valid values   |
 | SHAP plots not showing | Enable bootstrap analysis and retrain                  |
@@ -204,3 +204,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://claud
 
 
 🔗 **Live Application**: https://g8anpj4pcwkjacgbsg5fhd.streamlit.app/
+
